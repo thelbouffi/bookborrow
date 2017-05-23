@@ -1,0 +1,22 @@
+2017-05-23 15:41:50 [wakanda.BookAuthentification] INFO - Users and groups directory opened
+2017-05-23 15:41:51 [wakanda.BookAuthentification.backend] INFO - Datastore opened
+2017-05-23 15:41:51 [wakanda.BookAuthentification.backend] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8081,"securedPort":443,"mode":"http"}
+2017-05-23 15:41:51 [wakanda.BookAuthentification.backend] INFO - "backend" project opened
+2017-05-23 15:41:51 [wakanda.BookAuthentification.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"http"}
+2017-05-23 15:41:51 [wakanda.BookAuthentification.ServerAdmin] INFO - "ServerAdmin" project opened
+2017-05-23 15:41:51 [wakanda.BookAuthentification] INFO - "BookAuthentification" solution opened
+2017-05-23 15:41:51 [wakanda] INFO - Starts "BookAuthentification" solution
+2017-05-23 15:41:51 [wakanda.BookAuthentification.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2017-05-23 15:41:52 [wakanda.BookAuthentification.ServerAdmin] INFO - HTTP Server started
+2017-05-23 15:41:52 [wakanda.BookAuthentification.ServerAdmin] INFO - "ServerAdmin" project started
+2017-05-23 15:41:52 [wakanda.BookAuthentification.backend] INFO - HTTP Server started
+2017-05-23 15:41:52 [wakanda.BookAuthentification.backend] INFO - "backend" project started
+2017-05-23 15:41:52 [wakanda.BookAuthentification.ServerAdmin] INFO - Executes the bootstrap file(s)
+2017-05-23 15:41:52 [wakanda.BookAuthentification.ServerAdmin] INFO - Bootstrap file(s) executed
+2017-05-23 15:41:52 [wakanda.BookAuthentification.backend] INFO - Executes the bootstrap file(s)
+2017-05-23 15:41:52 [wakanda.BookAuthentification.backend] INFO - Bootstrap file(s) executed
+2017-05-23 15:41:52 [wakanda.BookAuthentification] INFO - "BookAuthentification" solution started
+2017-05-23 15:41:52 [wakanda] INFO - "BookAuthentification" solution has been successfully opened for running (duration: 1968 ms)
+2017-05-23 15:41:52 [wakanda.supervisor] INFO - solution opened
+2017-05-23 15:42:07 [wakanda.BookAuthentification.ServerAdmin] INFO -  created 
+2017-05-23 15:42:07 [wakanda.BookAuthentification.ServerAdmin] INFO - set the debugger
