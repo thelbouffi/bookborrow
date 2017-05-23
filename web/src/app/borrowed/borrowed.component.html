@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Wakanda Library Dashboard</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a [routerLink]="['/']"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="vertical-nav">
+    <ul>
+        <li><a [routerLink]="['/book']">Books</a></li>
+        <li><a [routerLink]="['/customer']">Customers</a></li>
+        <li><a [routerLink]="['/borrowed']">Borrowed Books</a></li>
+        <li><a [routerLink]="['/availibility']">Book Availability</a></li>
+        <li><a [routerLink]="['/addbook']">Add a Book</a></li>
+        <li><a [routerLink]="['/addcustomer']">Add a Customer</a></li>
+        <li><a [routerLink]="['/updatebook']">Book Update</a></li>
+        <li><a [routerLink]="['/updatecustomer']">Customer Update</a></li>
+    </ul>
+</div>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+    List of borrowed books
+</div>
