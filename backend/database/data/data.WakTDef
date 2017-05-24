@@ -1,1 +1,1 @@
-﻿[]
+﻿[{"dataTableNum":1,"tableName":"Book","dataTableID":"8D0834D2F0DC498AA85CDCC40F3470E3","fields":[{"fieldName":"ID","posInRecord":1},{"fieldName":"title","posInRecord":2},{"fieldName":"author","posInRecord":3},{"fieldName":"isbn","posInRecord":4}]},{"dataTableNum":2,"tableName":"Examplary","dataTableID":"D231B27F0AE2483CB96BEB8BEAA5339A","fields":[{"fieldName":"ID","posInRecord":1},{"fieldName":"copies","posInRecord":2}]}]

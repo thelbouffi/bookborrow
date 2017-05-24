@@ -1,11 +1,11 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" style="padding-top:15px;">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Wakanda Library Dashboard</a>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a [routerLink]="['/']"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
-        </ul>
+    
+            <button type="button" class="btn btn-primary btn-circle pull-right" (click)="logout()"><i class="glyphicon glyphicon-log-in"></i></button>
+        
     </div>
 </nav>
 <div class="vertical-nav">

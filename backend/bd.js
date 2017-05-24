@@ -1,0 +1,1 @@
+var book = new ds.Book()book.title = 'For Whom the Bell Tolls';book.author = 'Ernest Hemingway';book.isbn = '9780329036942';book.save();var bs = ds.Book.all();bs

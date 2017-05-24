@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { Wakanda } from './wakanda.service';
+
 import { Routing } from './app.routes';
 
 import { AppComponent } from './app.component';
@@ -37,7 +39,7 @@ import { BorrowedComponent } from './borrowed/borrowed.component';
     HttpModule,
     Routing
   ],
-  providers: [],
+  providers: [Wakanda],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

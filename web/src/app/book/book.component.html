@@ -1,11 +1,11 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" style="padding-top:15px;">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Wakanda Library Dashboard</a>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a [routerLink]="['/']"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
-        </ul>
+    
+            <button type="button" class="btn btn-primary btn-circle pull-right" (click)="logout()"><i class="glyphicon glyphicon-log-in"></i></button>
+        
     </div>
 </nav>
 <div class="vertical-nav">
@@ -23,10 +23,10 @@
 <div style="margin-left:25%;padding:1px 16px;height:1000px;">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-book"></i></span>
-        <input type="text" name="book-isbn" tabindex="1" placeholder="Book ISBN" class="form-control" />
+        <input type="text" name="book-isbn" tabindex="1" placeholder="Book ISBN" class="form-control" [(ngModel)]="isbn"/>
         <span class="input-group-btn">
             <!--<a [routerLink]="['/dash']"><input type="submit" name="login-submit" tabindex="3" class="btn btn-primary btn-block" value="Check"></a>-->
-            <a [routerLink]="['/dash']"><button class="btn btn-primary" type="button"><i class="glyphicon glyphicon-search"></i></button></a>
+            <button class="btn btn-primary" type="button" (click)="findBook()"><i class="glyphicon glyphicon-search"></i></button>
         </span>
     </div>
 </div>

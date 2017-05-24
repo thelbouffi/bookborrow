@@ -16,22 +16,22 @@ export class LoginComponent implements OnInit {
 
   username :string;
 	password :string;
-	session: number = 86400;
+	session : number = 100;
 
 
   constructor(public route: ActivatedRoute, public router: Router, public wakanda: Wakanda, public athenticationService: AuthenticationService) { }
 
   ngOnInit() {
-	  // 	this.athenticationService.checkIfLogged().then(logged => {
-		// 	if(logged){
-		// 		this.router.navigate(['/dash']);
-		// 	}
-	  // });
-	 }
+	  this.athenticationService.checkIfLogged().then(logged => {
+			if(logged){
+				this.router.navigate(['/dash']);
+			}
+	  });
+	}
 	
-	  login() {
+	login() {
 		this.athenticationService.login(this.username, this.password, this.session);
-	 }
+	}
 
   
 }

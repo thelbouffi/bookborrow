@@ -9,35 +9,31 @@ constructor(public wakanda: Wakanda, public router: Router) {}
 
 
 	login(username, password, session) {
-	
+		console.log('login is clicked')
 	    this.wakanda.directory.login(username, password, session).then(() => {
-	
 	        this.router.navigate(['/dash']);
-	
 	    }).catch((e) => {
 	        alert('Incorrect Login or Password !')
 	    });
 	}
 	
 	checkIfLogged() {
-	    
-	    // return new Promise(resolve => {
-	    //     this.wakanda.directory.currentUser().then((user) => {
-	    //         resolve(true);
-	    //     }).catch((e) => {
-	    //         this.router.navigate(['/']);
-	    //     });
-	
-	    // });
-	
+		console.log('checkiflogged')
+	    return new Promise(resolve => {
+	        this.wakanda.directory.getCurrentUser().then((user) => {
+	            resolve(true);
+	        }).catch((e) => {
+	            this.router.navigate(['/']);
+	        });
+	    });
+		
 	}
-	
 	
 	logout() {
 	    this.wakanda.directory.logout().then(() => {
+			console.log('loggedou is clicked')
 	        this.router.navigate(['/']);
 	    });
-	}
-	  
+	}  
 	
 }
